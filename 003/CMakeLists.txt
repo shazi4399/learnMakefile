@@ -10,7 +10,7 @@ PROJECT(HELLO)
 #PROJECT_SOURCE_DIR 为cmake系统帮助我们预定义的表示源文件路径的变量
 
 #Debug模式下的编译指令
-SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -o0 -Wall -g")
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g")
 
 #设置可执行文件路径
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/out")
